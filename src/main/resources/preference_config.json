@@ -1,0 +1,17 @@
+{
+  "configs": [
+    {
+      "title": "Salt-ASMR",
+      "config": "settings.json",
+      "preferences": [
+        {
+          "type": "button",
+          "title": "打开作品收藏与歌单",
+          "summary": "管理插件自己的 RJ 收藏和作品歌单；不修改原始音频",
+          "arrow_type": "none",
+          "on_click": "io.github.saltasmr.SaltAsmrPlugin.openLibrary"
+        }
+      ]
+    }
+  ]
+}
